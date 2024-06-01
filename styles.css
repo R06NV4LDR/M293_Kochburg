@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/*BUTTONS*/
+.button {
+    display: inline-block;
+    background-color: #000; /* Setzt den gesamten Button-Block auf Schwarz */
+    color: #fff; /* Ändert die Textfarbe auf Weiß */
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+#intro {
+    text-align: center;
+}
+
+#featured-recipe {
+    background: #fff;
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Maximale Breite des hervorgehobenen Rezepts */
+    text-align: left; /* Text linksbündig für besseres Lesen */
+}
+
+#featured-recipe img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem; /* Zentriert das Bild und fügt unteren Rand hinzu */
+}
+
+.recipe-content {
+    padding: 0 1rem;
+}
+
+.recipe-content h4 {
+    margin-top: 1.5rem;
+}
+
+.recipe-content p {
+    margin-bottom: 1rem;
+}
+
+
+table {
+    width: 100%;
+    margin: 1rem auto;
+    border-collapse: separate;
+    /*border-spacing: 1rem;*/
+}
+
+th,
+td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th.white-bg {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
